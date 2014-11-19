@@ -293,16 +293,6 @@ class Similarity
 	}
 	
 	public static void main(String[] args) {
-		
-		 try {
-	          new ProcessBuilder("/home/abyoudaya/Desktop/Untitled2.sh").start();
-	          //new ProcessBuilder(pathname+"/Untitled2.sh").start();
-	          
-	          
-	          System.out.println("Script executed successfully");
-	        } catch (IOException et) {
-	            et.printStackTrace();
-	        }
 	    
 		
 		JFrame jf = new IR_GUI();
@@ -310,16 +300,6 @@ class Similarity
 		jf.setDefaultCloseOperation(jf.EXIT_ON_CLOSE);
 		jf.setSize(250, 250);
 	
-	
-	
-	
-	try {
-	          new ProcessBuilder("/home/abyoudaya/Desktop/test.sh").start();
-	          //new ProcessBuilder(pathname+"/test.sh").start();
-	          System.out.println("Script executed successfully");
-	        } catch (IOException et) {
-	            et.printStackTrace();
-	        }
 	
 		
 	}
